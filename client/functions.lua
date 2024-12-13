@@ -167,8 +167,16 @@ function QBCore.Functions.Notify(text, texttype, length, icon)
         message.icon = icon
     end
 
+    -- Anpassning för att trigga rd-notif
+    local rdIcon = icon or "fa-check" -- Standardikonen
+    local rdColor = "#2a5b9c" -- Standardfärg
+    local rdType = texttype == 'success' and 'Success' or 'Notification' -- Justera typen baserat på texttype
+    local rdText = type(text) == 'table' and text.text or text -- Ta texten
+
+    exports['rd-notif']:OpenUi(rdIcon, rdColor, rdType, rdText, length or 7000)
     SendNUIMessage(message)
 end
+
 
 function QBCore.Functions.Progressbar(name, label, duration, useWhileDead, canCancel, disableControls, animation, prop, propTwo, onFinish, onCancel)
     if GetResourceState('progressbar') ~= 'started' then error('progressbar needs to be started in order for QBCore.Functions.Progressbar to work') end
