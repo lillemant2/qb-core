@@ -545,4 +545,14 @@ mechanic_toolbox    = {name = 'mechanic_toolbox',  label = 'Mechanic Tool Box', 
 neons_controller    = {name = 'neons_controller',  label = 'Neon Controller',   weight = 1000, type = 'item', image = 'neons_controller.png',  unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Xenon & Neon Controller'},
 mods_list           = {name = 'mods_list',         label = 'Vehicle mods list', weight = 1000, type = 'item', image = 'mods_list.png',         unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Vehicle mods list'},    
 extras_controller   = {name = 'extras_controller', label = 'Vehicle extras',    weight = 1000, type = 'item', image = 'extras_controller.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Vehicle extras controller'},    
-    }
+
+angle_grinder 			= {name = 'angle_grinder', 				label = 'Angle grinder', 			weight = 2000, 		type = 'item', 		image = 'angle_grinder.png', 		unique = false, 		useable = true, 	shouldClose = true,	   combinable = nil,   description = 'Used for cutting metal'},
+catalytic_converter 	= {name = 'catalytic_converter', 		label = 'Catalytic converter', 		weight = 5000, 		type = 'item', 		image = 'catalytic_converter.png', 		unique = false, 		useable = false, 	shouldClose = false,	   combinable = nil,   description = 'Most likely stolen'},
+
+kq_expensive_laptop			 = {name= "kq_expensive_laptop", 			    label= "Expensive laptop",	weight= 2000, 		type= "item", 		image= "kq_expensive_laptop.png", 	unique= false, 	useable= false, 	shouldClose= true,    combinable= nil,   description= "Expensive laptop. Looks used"},
+kq_expensive_watch			     = {name= "kq_expensive_watch", 			    label= "Expensive watch",	weight= 250, 		type= "item", 		image= "kq_expensive_watch.png", 	unique= false, 	useable= false, 	shouldClose= true,    combinable= nil,   description= "Expensive wristwatch. Looks used"},
+kq_expensive_bag			     = {name= "kq_expensive_bag", 			        label= "Designer bag",	    weight= 750, 		type= "item", 		image= "kq_expensive_bag.png", 	unique= false, 	useable= false, 	shouldClose= true,    combinable= nil,   description= "Designer bag. Looks used"},
+kq_expensive_sneakers		     = {name= "kq_expensive_sneakers", 			label= "Designer sneakers",weight= 1000, 		type= "item", 		image= "kq_expensive_sneakers.png",unique= false, 	useable= false, 	shouldClose= true,    combinable= nil,   description= "Designer shoes. Look used"},
+
+pepperspray		     = {name= "pepperspray", 			  	        label= "Pepper Spray", 				weight= 1000, 			type= "item", 		image= "pepperspray.png", 		    		unique= false, 	useable= true, 	shouldClose= true,	   combinable= nil,   description= "A portable can of pepperspray, spray it on your target to make them go blind for a while."},
+}
