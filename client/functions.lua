@@ -174,7 +174,6 @@ function QBCore.Functions.Notify(text, texttype, length, icon)
     local rdText = type(text) == 'table' and text.text or text -- Ta texten
 
     exports['rd-notif']:OpenUi(rdIcon, rdColor, rdType, rdText, length or 7000)
-    SendNUIMessage(message)
 end
 
 

@@ -450,7 +450,9 @@ bill_paper = { name = 'bill_paper', label = 'Faktura', weight = 100, type = 'ite
 	vicecarkey 		 	 	 	 = {name = 'vicecarkey',						label = 'Vice Bilfirma nyckel',   weight = 0,	type = 'item', 		image = 'clubkey.png', 		    unique = true, 	    useable = true, 	shouldClose = true,	   combinable = nil,   description = ""},
 	taxikey 		 	 	 	 = {name = 'taxikey',					    	label = 'taxi firma nyckel',      weight = 0,	type = 'item', 		image = 'clubkey.png', 		    unique = true, 	    useable = true, 	shouldClose = true,	   combinable = nil,   description = ""},
 	taxichefkey 		 	 	 = {name = 'taxichefkey',						label = 'taxi chef  nyckel',      weight = 0,	type = 'item', 		image = 'clubkey.png', 		    unique = true, 	    useable = true, 	shouldClose = true,	   combinable = nil,   description = ""},
-        -- Coal Items
+    motelkey                     = { name = 'motelkey',                         label = 'Motel Nyckel',              weight = 0,   type = 'item',      image = 'motelkey.png',         unique = true,      useable = true,     shouldClose = true,    combinable = nil,   description = '' },    
+    
+    -- Coal Items
         coal_ore = { name = 'coal_ore', label = 'Coal Ore', weight = 250, type = 'item', image = 'coal_ore.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A piece of coal ore.' },
         flint = { name = 'flint', label = 'Flint', weight = 150, type = 'item', image = 'flint.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A sharp piece of flint.' },
         sulfur_chunk = { name = 'sulfur_chunk', label = 'Sulfur Chunk', weight = 200, type = 'item', image = 'sulfur_chunk.png', unique = false, useable = false, shouldClose = true, combinable = nil, description = 'A chunk of sulfur.' },
